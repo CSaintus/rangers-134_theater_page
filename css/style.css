@@ -1,0 +1,123 @@
+
+body, html {
+    height: 100%;
+
+}
+
+.navbar ul {
+    
+    list-style-type: none;
+    background-color: black;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+    font-size: x-small;
+}
+
+.navbar li{
+    float: left;
+}
+
+.hero-image {
+    background-image: url("./theater-image-background.png") !important;
+    min-height: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.hero-text {
+    text-decoration: none;
+    font-size: xx-large;
+    padding: 15%;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    color: white;
+
+}
+.title {
+    text-align: left;
+    font-size: x-large;
+    margin-top: 0px;
+    margin-right: 200px;
+}
+
+.date {
+    text-align: left;
+    background-color: rgb(244, 241, 241);
+    margin-left: 145px;
+    margin-right: 145px;
+    margin-top: 75px;
+    margin-bottom: 0px;
+}
+
+
+.grid-container {
+    position: relative;
+    max-width: 660px;
+    margin-top: -15px;
+    margin-left: 75px;
+    padding: 0px;
+    display: grid;
+    grid-template-columns: 10% 20% 40% 20% 10%;
+    column-gap: 10px;
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 0px;
+}
+
+img {
+    width: 100px;
+    align-items: center;
+    margin-top: 15px;
+}
+
+button {
+    background-color: orange;
+    color: white;
+    margin-top: 40px;
+}
+
+h5 {
+    margin-left: 25px;
+}
+
+.footer-grid-container {
+    display: grid;
+    grid-template-columns: 30% 35% 25% 10%;
+    background-color: black;
+    padding: 45px;
+    margin-top: 25px;
+    
+}
+
+h10 {
+    color: white;
+}
+
+i {
+    color: orange;
+}
+
+.map {
+    font-size: 200px;
+    height: 300px;
+}
+
+h3 {
+    color: white;
+}
+
+.a {
+    color: white;
+}
